@@ -12,7 +12,7 @@ print a new line with the original s added with the persons chosen variable
  */
 package com.company;
 import java.util.Scanner;
-public class datatype {
+public class data_type {
 
     public static void main(String[] args) {
 
