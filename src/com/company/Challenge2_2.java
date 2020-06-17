@@ -15,7 +15,7 @@ public class Challenge2_2 {
 
     public static void Line() {
         System.out.print("+");
-        for (int dash = 0; dash < 10; dash++) {
+        for (int dash = 0; dash <= 2 * SIZE; dash++) {
             System.out.print("-");
         }
         System.out.print("+");
@@ -23,24 +23,20 @@ public class Challenge2_2 {
     }
 
     public static void Top() {
-        for (int line = 1; line < 5; line++) {
+        for (int line = 1; line <= SIZE; line++) {
             System.out.print("|");
-            for (int spaces = 1; spaces <= (-2 * line) + (2 * 5); spaces++) {
+            for (int spaces = 1; spaces <= -1 * line + SIZE + 1; spaces++) {
                 System.out.print(" ");
             }
 
-
-            System.out.print("/");
-            for (int slash = 0; slash <= 0 * line + 1; slash++) {
+            for (int fslash = 1; fslash <= 1 * line + SIZE - 5; fslash++) {
                 System.out.print("/");
             }
             System.out.print("*");
-            System.out.print("\\");
-            for (int slashr = 0; slashr <= 0 * line + 1; slashr++) {
+            for (int slash = 1; slash <= 1 * line + SIZE - 5; slash++) {
                 System.out.print("\\");
             }
-            System.out.print(" ");
-            for (int spaces = 1; spaces <= (-2 * line) + (2 * SIZE); spaces++) {
+            for (int spaces = 1; spaces <= -1 * line + SIZE + 1; spaces++) {
                 System.out.print(" ");
             }
             System.out.println("|");
@@ -48,22 +44,22 @@ public class Challenge2_2 {
     }
 
     public static void Bottom() {
-        for (int line = 1; line < 5; line++) {
+        for (int line = SIZE; line >= 1; line--) {
             System.out.print("|");
-            for (int spaces = 1; spaces <= (2 * line -10) ; spaces++) {
+            for (int spaces = 1; spaces <= SIZE - line + 1; spaces++) {
                 System.out.print(" ");
             }
-            System.out.print("\\");
-            for (int slashr = 0; slashr <= 0 * line + 1; slashr++) {
+
+            for (int slash = 1; slash <= line - 1; slash++) {
                 System.out.print("\\");
             }
             System.out.print("*");
-            System.out.print("/");
-            for (int slash = 0; slash <= 0 * line + 1; slash++) {
+            //System.out.print("/");
+            for (int fslash = 1; fslash <= line - 1; fslash++) {
                 System.out.print("/");
             }
-            System.out.print(" ");
-            for (int spaces = 1; spaces <= (2 * line -10); spaces++) {
+
+            for (int spaces = 1; spaces <= SIZE - line + 1; spaces++) {
                 System.out.print(" ");
             }
             System.out.println("|");
@@ -71,4 +67,6 @@ public class Challenge2_2 {
         }
     }
 }
+
+
 
