@@ -26,10 +26,9 @@ public class datatype {
         double myd = scan.nextDouble();
         System.out.println("enter string:");
         String mys = scan.next();
-        System.out.printf("%d \n ", i + myi);
-        System.out.printf("%10.1f \n ", d + myd);
-        System.out.printf("%s \n ", s + mys);
-
+        System.out.printf("%d \n", i + myi);
+        System.out.printf("%.1f \n",d + myd);
+        System.out.printf("%s \n", s + mys);
 
     }
 }
