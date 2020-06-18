@@ -1,3 +1,16 @@
+/* Jnana Velamuri
+6/17/20
+Create java for scanner
+Declare scanner
+Declare variables:
+int,int,double,
+Create a System.out.println where you let the person choose their variables
+-aka declare 3 new variables and scan each of them
+create calculations for tip and tax
+find final total of meal, tax ,and, tip
+round the final total
+ */
+
 package com.company;
 
 import java.util.Scanner;
