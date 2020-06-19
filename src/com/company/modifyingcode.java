@@ -12,5 +12,6 @@ public static void main (String [] args) {
   double taxes = subtotal*tax;
   double tip= subtotal* tips;
   double total= subtotal + taxes + tip;
+
 }
 }
