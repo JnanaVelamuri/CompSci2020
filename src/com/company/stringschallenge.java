@@ -10,15 +10,32 @@ println with the even group and then a space and then with the odd group
 package com.company;
 import java.util.Scanner;
 public class stringschallenge {
-public static void main (String [] args){
+public static void main (String [] args) {
     Scanner sc = new Scanner(System.in);
+
+    int t=0;
+    int i=0;
+    do {
+        System.out.println("the number of words your going to put:");
+        t = sc.nextInt();
+    } while (t<=0 || t>=11 );
+
+    System.out.println("please enter your words:");
     String userWord;
-    System.out.println("please enter a word:");
-   userWord = sc.next();
-    String newWord = scramble(userWord);
-System.out.println(newWord);
+
+    do {
+
+        do {
+            userWord = sc.next();
+        } while (userWord.length() <= 1 || userWord.length() >= 10001);
+        i++;
+        String newWord = scramble(userWord);
+        System.out.println(newWord);
+
+    } while(i<t);
 }
-public static String scramble (String userWord) {
+
+    public static String scramble (String userWord) {
     String evenWord= "";
     String oddWord= "";
 
