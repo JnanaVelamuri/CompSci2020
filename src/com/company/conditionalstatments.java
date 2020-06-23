@@ -15,28 +15,28 @@ import java.util.Random;
 public class conditionalstatments {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Random random1 = new Random();
+        Random random1 = new Random();// makes the numbers random
         String answer;
             do {
-                int n = random1.nextInt(137)+1;
-                System.out.println(n);
-                solve(n);
-                System.out.println("do you want to play? Enter yes or no:");
+                int n = random1.nextInt(137)+1;//makes the random number between 137 and 1
+                System.out.println(n);// prints out the random number and of its weird or not
+                solve(n);//makes the random number fo through the method loop to determine if weird or not weird
+                System.out.println("do you want to play? Enter yes or no:");//ask if the person wants to play
                 answer = sc.next();
-            } while (answer.contains("y"));
+            } while (answer.contains("y"));//if it detects a y it will play the loop, if there is no y it will continue asking until there is one
 
 
         }
     public static void solve (int n) {
 
         if (n % 2 == 1) {
-            System.out.println("weird");
+            System.out.println("weird");// if it has a remainder will print weird
         } else if (n >= 2 || n <= 5) {
-            System.out.println("not weird");
+            System.out.println("not weird");// if no remainder and between 2-5 will print not weird
         } else if (n >= 6 || n <= 20) {
-            System.out.println("weird");
+            System.out.println("weird");// if it has no remainder between 6-20 it will print weird
         } else if (n > 20) {
-            System.out.println("not weird");
+            System.out.println("not weird");// if no remainder and greater than 20 will print not weird
         }
     }
 }
