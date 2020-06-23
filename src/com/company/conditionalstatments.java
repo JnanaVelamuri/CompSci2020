@@ -16,13 +16,13 @@ public class conditionalstatments {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random random1 = new Random();// for making the numbers random
-        String answer;
+        String answer;// making new string so the user can answer yes or no
             do {
                 int n = random1.nextInt(137)+1;//makes the random number between 137 and 1
                 System.out.println(n);// prints out the random number and of its weird or not
                 solve(n);//makes the random number fo through the method loop to determine if weird or not weird
                 System.out.println("do you want to play? Enter yes or no:");//ask if the person wants to play
-                answer = sc.next();
+                answer = sc.next();// lets the user type in yes or no
             } while (answer.contains("y"));//if it detects a y it will play the loop, if there is no y it will continue asking until there is one
 
 
