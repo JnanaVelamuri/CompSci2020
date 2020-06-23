@@ -22,9 +22,7 @@ public static void main (String [] args) {
 
     System.out.println("please enter your words:");
     String userWord;
-
     do {
-
         do {
             userWord = sc.next();
         } while (userWord.length() <= 1 || userWord.length() >= 10001);

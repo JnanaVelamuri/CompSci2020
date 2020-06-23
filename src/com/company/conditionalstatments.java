@@ -1,13 +1,13 @@
 /*
 Jnana Velamuri
 6/19/20
-make int n random
+create random object so you can create random objects for n
 make constraint so that n is between 2-136
 make if statement that finds whether n is divisible by 2
-if divisible with remainder print line "weird"
-if without a remainder make l statement to see if its between 2-5 and if it is println "not weird"
-if without a remainder and its not between 2-5 make l statement to see if its between 6-20 println "weird"
-if without a remainder and is not between 2-5 or 6-20 make l statement to see if its greater that 20 if it is println "not weird"
+if it has a  remainder print line "weird"
+if without a remainder make else if statement to see if its between 2-5 and if it is println "not weird"
+if without a remainder and its not between 2-5 make else if statement to see if its between 6-20 println "weird"
+if without a remainder and is not between 2-5 or 6-20 make else if statement to see if its greater that 20 if it is println "not weird"
  */
 package com.company;
 import java.util.Scanner;
