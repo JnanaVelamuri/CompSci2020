@@ -15,7 +15,7 @@ import java.util.Random;
 public class conditionalstatments {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Random random1 = new Random();// makes the numbers random
+        Random random1 = new Random();// for making the numbers random
         String answer;
             do {
                 int n = random1.nextInt(137)+1;//makes the random number between 137 and 1
