@@ -6,6 +6,7 @@ create a do loop asks user for how many days's of temperature
 while loop that makes sure their number is within the constraint
 then print that amount of random numbers
 then find the average of them and print it out
+then also find the days that were above average and print it out
  */
 package com.company;
 import java.util.Scanner;
