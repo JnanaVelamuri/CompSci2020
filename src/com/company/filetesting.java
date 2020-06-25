@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 public class filetesting {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C\\Users\\JnanaVelamuri\\CompSci\\src\\com.company\\data.txt");
+        File file = new File("/Users/jnanavelamuri/Desktop/javaprogram/src/com/company/data.txt");
         Scanner input = new Scanner(file);
         int number;
         double temp1 = 0;
