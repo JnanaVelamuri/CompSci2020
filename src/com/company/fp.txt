@@ -1,0 +1,20 @@
+127 Shark 4.2 8 Whale 31 5.2 Shrimp 37 2.3 Jellyfish 91 Dolphin 38 1.2 Squid 119 24.9
+10 Octopus 12.3 65 Salmon 11.5 6 Trout 6.5 3 Turtle 12.2 129 Orca 11.1 105 Coral 117 25.0
+104 4.1 Penguin 42 6.7 Seal 69 2.1 Manatee 131 16.3 Alligator 2.3 30 Crocodile 53 5.6 Snake 14
+1 Bear 4.4 128 Sloth 5.4 100 Rabbit17.3 92 Hare 52 11.8 Squirrel 20.0 15 Pigeon 4.3 2
+11 Robin 112 Hawk 21.7 111 Duck 26 21.8 Eagle 48 21.9 Parrot  19.1 113 Frog 98 21.6
+47 Tortoise 19.4 94 Lizard 5 19.5Gecko 120 19.7 Salamander 24 19.2 Newt 93 19.3 Toad 21
+57 Lion 17.2 55 Tiger 17.4 123 Panther 17.8 82 Leopard 16.8  107 Jaguar 17.1 18 Hyena 90 8.3
+39 3.3 Wildebeest 114 3.8 Zebra 3.2 51 Antelope 3.1 7 Guzel 3.4 72 4.5 Giraffe 9 Impala 78
+124 2.2 Baboon 3.7  45 Ape 2.7 110 2.9 Monkey 2.9 41 Gorilla 6.7 70 Chimpanzee 85 Primate 63
+32 Ostrich 5.5 89 Emu 5.8 16 Badger 67 5.2 Aardvark 83 Waterbuck 74 5.1 Cheetah 34 12.1
+50 13.6 Hippopotamus 13.2 60 Oryx 22.5 58 Deer 13.7 126 13.3 Moose 12 22.6 Beaver 13.8 54
+97 12.2 Chipmunk 12.4 125 Orangutan 12.6 19 Fox 12.3 62 Boar 12.5 44 Lynx 109 23.0 24.8
+22.4 115 Pig 130 22.3 Cow 61 14.9 Goat 23 21.4 Rooster 22.2 122 Dog 23.2 95 21.1 24.7
+103 18.5 Owl 73 22.9 Horse 18.7 59 Donkey 22.8 56 Mule 18.4 64 Chicken 22.7 106 21.3
+20 Cat 22.0 88 Fish 22.1 121 21.0 Camel 49 Panda 21.5 25 20.9 Lemur 23.1 30 28 21.2
+133 16.2 Rhino 16.4 102 Koala 16.1 116 Lamb 77 16.5 Bull 80 Walrus 16.9 33 16.7 24.6
+20.4 75 Chick 23.4 68 20.3 Mouse 96 Gerbil 20.1 71 Rat 35 Hedgehog 20.2 86 Ferret 134
+66 14.5 Possum 36 14.1 Finch 17 14.6 Canary 108 14.3 Pheasant 118 Toucan 14.2 40 Quail 43 14.4
+87 Dove 23.6 4 Macaw 23.7 132 Cockatoo 29 23.8 Chinchillas 23.9 99  24.0 Chameleon 79 24.1 Scorpion 84 24.5
+101 Ant 20.5 22 Bee 81 14.7 Spider 20.7 13 Wasp 20.6 46 Beetle 14.8 76 Roach 27 20.8 24.9
