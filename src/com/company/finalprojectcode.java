@@ -137,7 +137,7 @@ public class finalprojectcode {
     public static void welcome(){
         System.out.println("                              ----------"); //this is entirely extra credit
         System.out.println("  /^\\    ________     [>-<] <| Welcome!| ");
-        System.out.println(" (0_0)  <|Hello! |       |    -----------");
+        System.out.println(" (0_0)  <|Hello! |      |    -----------");
         System.out.println(" -/ \\-   --------    --<|>--");
         System.out.println(" /_ _\\                  |");
         System.out.println("  | |                  _|_");
@@ -148,9 +148,9 @@ public class finalprojectcode {
         System.out.println("  /^\\    _________      [>-<] <| Adios!  | ");
         System.out.println(" (0_0)  <|Goodbye!|       |    -----------");
         System.out.println(" -/ \\-   ---------     --<|>--");
-        System.out.println(" /_ _\\                  |");
-        System.out.println("  | |                  _|_");
-        System.out.println("  | |                  | |");
+        System.out.println(" /_ _\\                    |");
+        System.out.println("  | |                    _|_");
+        System.out.println("  | |                    | |");
     }
 }
 
